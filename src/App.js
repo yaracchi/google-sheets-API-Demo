@@ -27,7 +27,7 @@ class App extends Component {
 
     const { data } = this.state
     return (
-     
+      <div className="App">
         <div id="employee-details">
           {
             data.map(obj => {
